@@ -3815,3 +3815,7 @@
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+	ul.actions.vertical li > * {
+    margin-bottom: 26px;
+    margin-top: 35px;
+}
