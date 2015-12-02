@@ -2612,7 +2612,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0 ;
+		padding: 4em 0 .5em 0 ;
 	}
 
 		.wrapper > .inner {
@@ -2953,7 +2953,7 @@
 			}
 
 		.wrapper.style4 {
-			background-color: transparent;
+			background-color: #1d242a;
 		}
 
 		.wrapper.style5 {
@@ -3779,10 +3779,12 @@
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+	/*)	background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+	*/
+		background-image: url(images/banner.JPG);
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
@@ -3807,6 +3809,7 @@
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
+
 	}
 
 	body.is-mobile.landing #footer {
